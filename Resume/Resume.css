@@ -74,12 +74,11 @@ main{
 .container-box{
     position: relative;
     place-self: center;
-    top: 60px;
-    /*width: calc(100% - 120px);*/
     width: calc(100% - 120px);
     max-width: 1320px;
     height: 620px;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 #first-container-title{
@@ -216,10 +215,71 @@ main{
     border-radius: 10px;
 }
 
+#buttons{
+    position: relative;
+    height: 50px;
+    margin-top: 100px;
+    place-self: center;
+    width: calc(100% - 120px);
+    max-width: 1320px;
+    min-width: 1120px;
+}
+
+#buttons-container{
+    position: relative;
+    display: inline-flex;
+    gap: 80px;
+    width: auto;
+    height: 50px;
+    float: right;
+}
+
+#button-word{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: Geologica;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 50px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: #2176FF;
+}
+
+#button-pdf{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    font-family: Geologica;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 50px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: #2176FF;
+}
+
+#button-save{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-family: Geologica;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 50px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: #2176FF;
+}
+
 footer{
     background-color: #00B4D8;
     width: auto;
     height: 80px;
     position: relative;
-    top: 60px;
+    margin-top: 60px;
 }
